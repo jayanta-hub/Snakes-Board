@@ -49,7 +49,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="game">
+    <div className="app">
       <div className="board">{renderBoard()}</div>
     </div>
   );
