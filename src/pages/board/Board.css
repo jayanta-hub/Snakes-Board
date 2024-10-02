@@ -1,0 +1,19 @@
+/* src/components/Board.css */
+.board {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); /* Assuming 10x10 board */
+    grid-template-rows: repeat(10, 1fr);
+    /* gap: 5px; */
+    width: 500px;
+    height: 500px;
+  }
+  
+  .board-cell {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    font-size: 18px;
+  }
+  
